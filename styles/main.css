@@ -1,0 +1,103 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(rgb(206, 161, 237), rgb(159, 85, 182));
+}
+
+.title {
+  padding: 15px;
+}
+.title__text {
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 4px 4px rgb(247, 10, 211);
+}
+
+.task {
+  background-color: white;
+  width: 500px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgb(247, 10, 211);
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.task__input {
+  font-size: 18px;
+  padding-left: 10px;
+  margin: 0px 10px;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px gray;
+}
+.task__button {
+  border: none;
+  padding: 10px;
+  background-color: rgb(247, 10, 211);
+  color: white;
+  height: 40px;
+  width: 100px;
+}
+
+.list {
+  background-color: white;
+  width: 500px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgb(247, 10, 211);
+  box-sizing: border-box;
+}
+.list__tasks {
+  list-style: none;
+  padding: 0px;
+}
+.list__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid 1px gray;
+  height: 50px;
+  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+}
+.list__element:hover {
+  background-color: rgb(222, 138, 224);
+}
+.list__text {
+  font-size: 18px;
+}
+.list__edit-button {
+  border: none;
+  background-color: transparent;
+}
+.list__delete-button {
+  border: none;
+  background-color: transparent;
+}
+.list__edit {
+  background-color: rgb(126, 196, 20);
+  padding: 10px;
+  margin: 2px;
+  color: white;
+}
+.list__edit:hover {
+  background-color: rgb(251, 255, 0);
+}
+.list__delete {
+  background-color: rgb(160, 8, 184);
+  padding: 10px;
+  margin: 2px;
+  color: white;
+}
+.list__delete:hover {
+  background-color: rgb(255, 0, 0);
+}/*# sourceMappingURL=main.css.map */
