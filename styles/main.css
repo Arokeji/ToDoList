@@ -59,6 +59,20 @@ body {
   list-style: none;
   padding: 0px;
 }
+.list__input {
+  font-size: 18px;
+  margin: 0px;
+  height: 40px;
+  width: 100%;
+  border: none;
+}
+.list__submit {
+  border: none;
+  background-color: rgb(94, 0, 135);
+  color: white;
+  height: 40px;
+  width: 100px;
+}
 .list__element {
   display: flex;
   flex-direction: row;
